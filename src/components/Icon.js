@@ -22,6 +22,7 @@ import {
   faSlack,
   faTwitter,
   faYoutube,
+  faInstagram,
 } from '@fortawesome/fontawesome-free-brands'
 
 fontawesome.library.add(
@@ -50,6 +51,7 @@ const ICONS = {
   faq: ['fas', 'puzzle-piece'],
   github: ['fab', 'github'],
   heart: ['fas', 'heart'],
+  instagram: ['fab', 'instagram'],
   meetup: ['fab', 'meetup'],
   network: ['fas', 'handshake'],
   program: ['fas', 'code'],
