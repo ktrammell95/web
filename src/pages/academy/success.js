@@ -76,9 +76,9 @@ const SuccessStoriesPage = props => (
         </Card>
 
         <Card
-          id="mark"
+          id="markl"
           name="Mark Lombardi-Nelson"
-          sizes={props.data.mark.sizes}
+          sizes={props.data.markl.sizes}
         >
           "I can't begin to express the gratitude and impact learning to code
           has made on our business, as well as my life. We built Shoot To Thrill
@@ -124,7 +124,7 @@ export const pageQuery = graphql`
         ...GatsbyImageSharpSizes
       }
     }
-    mark: imageSharp(id: { regex: "/people/mark-lombardi2/" }) {
+    markl: imageSharp(id: { regex: "/people/mark-/" }) {
       sizes(maxWidth: 416) {
         ...GatsbyImageSharpSizes
       }
