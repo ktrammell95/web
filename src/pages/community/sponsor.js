@@ -28,8 +28,18 @@ const SponsorPage = props => (
   <div className="CommunityPage SponsorPage">
     <CommunityNavigation />
     <div className="wrap">
-      <PageHeading>Sponsorship</PageHeading>
-
+      <div className="header">
+        <PageHeading>Sponsorship</PageHeading>
+        <p className="">
+          <a
+            className="cta-button"
+            target="_blank"
+            href="http://bit.ly/SDG-supporter-form"
+          >
+            SUPPORT SDG
+          </a>
+        </p>
+      </div>
       <Tabs>
         <TabList>
           <Tab>About</Tab>
@@ -106,15 +116,6 @@ const SponsorPage = props => (
               </p>
             </div>
           </div>
-          <p className="cta">
-            <a
-              className="cta-button"
-              target="_blank"
-              href="http://bit.ly/SDG-supporter-form"
-            >
-              Support SDG
-            </a>
-          </p>
         </TabPanel>
         <TabPanel>
           <div className="levels">
@@ -154,15 +155,6 @@ const SponsorPage = props => (
               </p>
             </Card>
           </div>
-          <p className="cta">
-            <a
-              className="cta-button"
-              target="_blank"
-              href="http://bit.ly/SDG-supporter-form"
-            >
-              Support SDG
-            </a>
-          </p>
         </TabPanel>
         <TabPanel>
           <div className="scholarships">
@@ -208,15 +200,6 @@ const SponsorPage = props => (
               </p>
             </div>
           </div>
-          <p className="cta">
-            <a
-              className="cta-button"
-              target="_blank"
-              href="http://bit.ly/SDG-supporter-form"
-            >
-              Support SDG
-            </a>
-          </p>
         </TabPanel>
       </Tabs>
     </div>
